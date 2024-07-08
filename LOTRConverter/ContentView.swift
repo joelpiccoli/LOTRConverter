@@ -1,21 +1,15 @@
-//
-//  ContentView.swift
-//  LOTRConverter
-//
-//  Created by Joel da Rosa on 08/07/24.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "person")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+                .foregroundStyle(.purple)
+            Text("Hello, world!").foregroundColor(.gray)
         }
-        .padding()
+        .padding(10)
     }
 }
 
