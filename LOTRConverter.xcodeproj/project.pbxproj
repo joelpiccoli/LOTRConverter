@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627AD39F2C46060D00E30676 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD39E2C46060D00E30676 /* CurrencyIcon.swift */; };
 		62B65FA62C3DB58A0077A761 /* CurrencySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B65FA52C3DB58A0077A761 /* CurrencySelector.swift */; };
 		62B65FA82C3DB6440077A761 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B65FA72C3DB6440077A761 /* ExchangeInfo.swift */; };
 		62B65FAB2C3DBDFB0077A761 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B65FAA2C3DBDFB0077A761 /* ExchangeRate.swift */; };
@@ -14,9 +15,11 @@
 		62B9143B2C3C592000F4F03B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9143A2C3C592000F4F03B /* ContentView.swift */; };
 		62B9143D2C3C592100F4F03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B9143C2C3C592100F4F03B /* Assets.xcassets */; };
 		62B914402C3C592100F4F03B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B9143F2C3C592100F4F03B /* Preview Assets.xcassets */; };
+		62D7183A2C51604500AAECEB /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D718392C51604500AAECEB /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		627AD39E2C46060D00E30676 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
 		62B65FA52C3DB58A0077A761 /* CurrencySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelector.swift; sourceTree = "<group>"; };
 		62B65FA72C3DB6440077A761 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 		62B65FAA2C3DBDFB0077A761 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		62B9143A2C3C592000F4F03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62B9143C2C3C592100F4F03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B9143F2C3C592100F4F03B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62D718392C51604500AAECEB /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				62B65FAA2C3DBDFB0077A761 /* ExchangeRate.swift */,
+				627AD39E2C46060D00E30676 /* CurrencyIcon.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -65,6 +70,7 @@
 		62B914372C3C592000F4F03B /* LOTRConverter */ = {
 			isa = PBXGroup;
 			children = (
+				62D718382C51603400AAECEB /* Enums */,
 				62B65FA92C3DBDDB0077A761 /* Components */,
 				62B914382C3C592000F4F03B /* LOTRConverterApp.swift */,
 				62B9143A2C3C592000F4F03B /* ContentView.swift */,
@@ -82,6 +88,14 @@
 				62B9143F2C3C592100F4F03B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62D718382C51603400AAECEB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				62D718392C51604500AAECEB /* Currency.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +173,8 @@
 				62B65FAB2C3DBDFB0077A761 /* ExchangeRate.swift in Sources */,
 				62B65FA62C3DB58A0077A761 /* CurrencySelector.swift in Sources */,
 				62B914392C3C592000F4F03B /* LOTRConverterApp.swift in Sources */,
+				62D7183A2C51604500AAECEB /* Currency.swift in Sources */,
+				627AD39F2C46060D00E30676 /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
